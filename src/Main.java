@@ -1,3 +1,7 @@
+import Clases.Genero;
+import Clases.Publico;
+import Clases.TipoContenido;
+
 import java.util.List;
 import java.util.Scanner;
 

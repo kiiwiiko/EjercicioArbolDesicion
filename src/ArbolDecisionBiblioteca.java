@@ -50,7 +50,7 @@ public class ArbolDecisionBiblioteca {
         return null; // TODO: reemplazar
     }
 
-    // Helper listo (NO TOCAR)
+    //Valida si el ususario ingresa si o no
     private boolean preguntarSiNo(Scanner sc, String pregunta) {
         String r;
         do {
