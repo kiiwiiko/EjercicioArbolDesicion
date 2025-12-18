@@ -38,7 +38,8 @@ public class Libro {
 
     @Override
     public String toString() {
-        // Pensado para mostrarse en un JList
         return titulo + "  [" + tipoContenido + " | " + genero + " | " + publico + "]";
     }
+
+
 }

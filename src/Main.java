@@ -14,7 +14,7 @@ public class Main {
 
         int op;
         do {
-            System.out.println("\n=== MENÚ - BIBLIOTECA (ÁRBOL DE DECISIÓN) ===");
+            System.out.println("\n=== MENÚ DE BIBLIOTECA (ÁRBOL DE DECISIÓN) ===");
             System.out.println("1) Agregar libro");
             System.out.println("2) Ver TODOS");
             System.out.println("3) Ver SOLO por TIPO DE CONTENIDO");

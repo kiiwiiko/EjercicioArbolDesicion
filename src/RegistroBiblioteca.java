@@ -3,7 +3,6 @@ import Clases.Publico;
 import Clases.TipoContenido;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class RegistroBiblioteca {
@@ -14,7 +13,7 @@ public class RegistroBiblioteca {
     }
 
     public List<Libro> getLibros() {
-        return Collections.unmodifiableList(libros);
+        return libros;
     }
 
     public List<Libro> filtrarPorTipo(TipoContenido tipo) {
